@@ -1,5 +1,5 @@
 $service-text: $gray-900;
-
+$dark-services-bg: $dark-blue;
 .service-section{
     padding: 77px 0 80px;
     
@@ -12,6 +12,30 @@ $service-text: $gray-900;
         
         span{
             color: $service-text;
+        }
+    }
+    
+    
+    
+    //service.html
+    &.dark-service-section{
+        background-color: $dark-services-bg;
+        h2{
+            color: $primary;
+        }
+        
+        .read-more{
+            font-weight: $font-weight-medium;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+        }
+        
+        .service-item-description{
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            height: 3*2.5rem;
+            overflow: hidden;
+            margin-bottom: 15px;
         }
     }
 }
