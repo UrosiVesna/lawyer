@@ -10514,6 +10514,7 @@ header .navbar-nav a {
   font-size: 1.8rem;
   line-height: 2.7rem;
   font-weight: 500;
+  margin-bottom: 3.6rem;
 }
 
 @media (min-width: 992px) {
@@ -10572,6 +10573,30 @@ footer .copyright a {
 @media (min-width: 992px) {
   .about-content {
     padding: 104px 0 133px;
+  }
+}
+
+.team-single {
+  padding: 50px 0;
+}
+
+.team-single .team-member-position {
+  color: #1A77CD;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-weight: 500;
+  margin-bottom: 3.6rem;
+}
+
+.team-single .team-member-bio p {
+  margin-bottom: 2rem;
+  text-align: justify;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .team-single {
+    padding: 100px 0 150px;
   }
 }
 
